@@ -1,6 +1,6 @@
 ul {
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 0;
     padding: 0;
   }
 
@@ -15,5 +15,19 @@ ul {
 
   li a:hover {
     text-decoration: underline;
+  }
+
+  #header {
+    margin: 0px, 0px, 0px, 40px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+  }
+
+  #logo {
+    padding-top: 100px;
+  }
+
+  #search_bar {
+    height: 34px;
   }
 
