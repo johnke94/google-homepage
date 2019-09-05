@@ -6,39 +6,41 @@
         </title>
         <link href="styles/style.css" rel="stylesheet">
     </head>
-    <body>
-        <div id = "header">
-            <ul>
-                <li><a href="about.asp">About</a></li>
-                <li><a href="store.asp">Store</a></li>
-                <li style="float:right"><a href="gmail.asp">Gmail</a></li>
-                <li style="float:right"><a href="images.asp">Images</a></li>
-            </ul>
-        </div>
+    <header>
+        <ul>
+            <li style="float:left"><a href="about.asp">About</a></li>
+            <li style="float:left"><a href="store.asp">Store</a></li>
+            <li style="float:right"><a href="login.asp"><input type="button" value="Sign In" class="login"></a></li>
+            <li style="float:right"><a href="apps.asp"><img class="grid" src="https://www.pngkey.com/png/full/207-2070054_grid-menu-gallery-set-collection-android-interface-google.png" width="20px"></a></li>
+            <li style="float:right"><a href="images.asp">Images</a></li>
+            <li style="float:right"><a href="gmail.asp">Gmail</a></li>
+        </ul>
+    </header>
+    <body style="font-family: Arial, sans-serif">
         <div id = "logo">
             <center>
-                <img src="https://www.digitalartsonline.co.uk/cmsdata/features/3624426/google_2015_logo-512.png"
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
                 alt="Google Logo" height="92" width="272">
             </center>
         </div>
-        <div id = "search_bar">
-            <center>
-                <input type = "text" maxlength="2048" name="search_bar">
-            </center>
+        <div>
+            <input type = "text" class="search_bar">
+            <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"
+            alt="Search by voice" class="voice_button"> 
         </div>
         <br>
-        <div id="button">
+        <div >
             <center>
-                <input type="button" value="Google Search" name="search_button">
-                <input type="button" value="I'm Feeling Lucky" name="lucky_button">
+                <input type="button" value="Google Search" class="submit_button">
+                <input type="button" value="I'm Feeling Lucky" class="submit_button">
             </center>
         </div>
     </body>
     <footer>
         <ul>
-            <li><a href="advertising.asp">Advertising</a></li>
-            <li><a href="business.asp">Business</a></li>
-            <li><a href="howsearchworks.asp">How Search Works</a></li>
+            <li style="float:left"><a href="advertising.asp">Advertising</a></li>
+            <li style="float:left"><a href="business.asp">Business</a></li>
+            <li style="float:left"><a href="howsearchworks.asp">How Search Works</a></li>
             <li style="float:right"><a href="privacy.asp">Privacy</a></li>
             <li style="float:right"><a href="Terms.asp">Terms</a></li>
             <li style="float:right"><a href="Settings.asp">Settings</a></li>

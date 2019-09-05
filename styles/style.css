@@ -1,42 +1,104 @@
+* {
+  text-align: center;
+}
+
 ul {
     list-style-type: none;
-    margin-bottom: 0;
-    padding: 0;
-  }
+    margin: 15px;
+    padding: 0px;
+}
 
-  li a {
-    float: left; 
+li a { 
     display: inline;
-    padding: 15px;
+    padding: 12px 10px;
     color: black;
     opacity: 0.75;
     text-decoration: none;
-  }
+}
 
-  li a:hover {
-    text-decoration: underline;
-  }
+li a:hover {
+  text-decoration: underline;
+}
 
-  #header {
-    margin: 0px, 0px, 0px, 40px;
-    font-family: arial, sans-serif;
-    font-size: 13px;
-  }
+header {
+  margin: 0px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  position: relative;
+}
 
-  #logo {
-    padding-top: 100px;
-  }
+#logo {
+  padding-top: 200px;
+}
 
-  #search_bar {
-    height: 34px;
-  }
+.search_bar {
+  text-align: left;
+  text-indent: 15px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  width: 500px;
+  height: 35px;
+  font-family: arial,sans-serif;
+  font-size: 16px;
+}
 
-  footer {
-    background: #f2f2f2;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-    font-family: arial, sans-serif;
-    font-size: 13px;
-  }
+.search_bar:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225, 229, 0)
+}
+
+footer {
+  background: #f2f2f2;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  height: 40px;
+}
+
+.login {
+  color: #fff;
+  font-weight: bold;
+  background: #4285f4;
+  border-radius: 2px;
+  border: none;
+  line-height: 28px;
+  padding: 0 13px;
+  margin-top: -6px;
+}
+
+.grid {
+  display: inline-block;
+  top: -3px;
+  position: relative;
+  width: 20px;
+}
+
+.submit_button {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  height: 36px;
+  line-height: 27px;
+}
+
+input[type=button]:hover {
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+  color: #222;
+  border: 1px solid #c6c6c6;
+}
+
+.voice_button {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-left: -40px;
+  position: relative;
+}
 
